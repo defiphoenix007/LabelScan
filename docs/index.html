@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NutriScan — Smart Food Scanner</title>
+
+  <link rel="icon" href="./icon.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <img src="./icon.png" alt="NutriScan logo" class="logo" />
+        <div>
+          <h1 class="brand-title">NutriScan</h1>
+          <p class="brand-sub">Scan • Understand • Eat Smart</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how">How it works</a>
+        <a class="nav-link" href="#testimonials">Testimonials</a>
+        <a id="downloadBadge" class="download-badge" href="https://github.com/defiphoenix007/LabelScan/releases/download/v1.0.0/app-release.apk" target="_blank" rel="noopener">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+          <span>Download from GitHub</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h2>Scan labels. Know what you eat.</h2>
+          <p class="lead">
+            NutriScan reads product barcodes and shows ingredients, possible warnings, and nutrition traffic lights — all in seconds.
+          </p>
+
+          <div class="hero-cta">
+            <a id="downloadPrimary" class="btn primary" href="https://github.com/defiphoenix007/LabelScan/releases/download/v1.0.0/app-release.apk" target="_blank" rel="noopener">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" />
+              Download on GitHub
+            </a>
+
+          </div>
+
+          <ul class="quick-features">
+            <li>Barcode scanner (CameraX + ML Kit)</li>
+            <li>OpenFoodFacts integration</li>
+            <li>Nutrition traffic lights & allergen detection</li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="device-mock">
+            <img src="./icon.png" alt="App icon preview" />
+            <div class="device-screen">
+              <div class="screen-card">
+                <h3>Choco Delight</h3>
+                <p class="small">Ingredients: Sugar, Cocoa, Milk Powder, Palm Oil</p>
+                <div class="traffic-row">
+                  <div class="traffic pill green">Sugar: Medium</div>
+                  <div class="traffic pill red">Fat: High</div>
+                  <div class="traffic pill green">Salt: Low</div>
+                </div>
+                <p class="tiny">Side effects: High sugar may cause obesity; Palm oil can raise cholesterol.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="container section">
+      <h2 class="section-title">Features</h2>
+      <div class="features-grid">
+        <article class="feature">
+          <h3>Fast Barcode Scanning</h3>
+          <p>Camera-based barcode scanning using CameraX and ML Kit for near-instant recognition.</p>
+        </article>
+
+        <article class="feature">
+          <h3>OpenFoodFacts Lookup</h3>
+          <p>Automatically fetch product data & ingredients from OpenFoodFacts database.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Allergen & Side-effect Detection</h3>
+          <p>Alerts for common allergens (milk, nuts, soy, gluten) and mapped side-effect warnings.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Nutrition Traffic Lights</h3>
+          <p>Color-coded sugar/fat/salt indicators to help make healthier choices at a glance.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- HOW -->
+    <section id="how" class="container section light">
+      <h2 class="section-title">How it works</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h4>Open app & tap scan</h4>
+          <p>Grant camera access, point at the barcode, and let the scanner read it.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h4>Fetch product data</h4>
+          <p>App checks OpenFoodFacts for product name, ingredients and nutriments.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h4>See results instantly</h4>
+          <p>Traffic lights, ingredient list, and allergen warnings are displayed.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD (secondary) -->
+    <section class="container section center">
+      <a class="btn download-hero" href="https://github.com/yourusername/your-repo/releases" target="_blank" rel="noopener">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        Download the app on GitHub
+      </a>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="container section">
+      <h2 class="section-title">What Indian users say</h2>
+
+      <div class="testimonials-grid">
+        <!-- Each card can be edited -->
+        <div class="testimonial-card">
+          <p class="quote">"NutriScan makes grocery shopping so easy — I can quickly check if the snacks are high in sugar."</p>
+          <div class="meta">— Priya Sharma, Delhi</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="quote">"Practical and fast. The traffic-light display is super helpful for my family's meals."</p>
+          <div class="meta">— Arjun Mehta, Mumbai</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="quote">"A must-have app for parents. I avoid products with hidden allergens now."</p>
+          <div class="meta">— Neha Patel, Ahmedabad</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="quote">"Compact UI, clear warnings. Love that the app explains why something is unhealthy."</p>
+          <div class="meta">— Rakesh Verma, Bengaluru</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <div>© <span id="year"></span> NutriScan — Built with ❤️ in Kashmir </div>
+        <div class="small-links">
+          <a href="#" id="privacy">Privacy</a>
+          <a href="#" id="tos">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal: demo / screenshots -->
+  <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-inner" role="document">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <h3>App preview</h3>
+      <div class="modal-grid">
+        <img src="./icon.png" alt="app preview" />
+        <div class="modal-text">
+          <h4>Choco Delight</h4>
+          <p><strong>Ingredients:</strong> Sugar, Cocoa, Milk Powder, Palm Oil</p>
+          <p><strong>Nutrition:</strong> Sugar — Medium 🔸, Fat — High 🔴, Salt — Low 🟢</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
